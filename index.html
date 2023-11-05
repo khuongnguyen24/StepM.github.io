@@ -16,16 +16,22 @@
 </head>
 
 <body>
-    <div class="container" id="listImage"></div>
+    <div class="container" id="listImage">
+    </div>
     <script>
         let numberList = document.getElementById("listImage");
 
-        for (let i = 1; i <= 1690; i++) {
+        for (let i = 1; i <= 900; i++) {
             let image = document.createElement("img");
-            image.src = "Stepmother Friends (" + i + ").jpg";
+            image.src = "Stepmpther/Stepmother Friends (" + i + ").jpg";
             numberList.appendChild(image);
         }
 
+        for (let i = 901; i <= 1690; i++) {
+            let image = document.createElement("img");
+            image.src = "Friends/Stepmother Friends (" + i + ").jpg";
+            numberList.appendChild(image);
+        }
     </script>
 </body>
 
